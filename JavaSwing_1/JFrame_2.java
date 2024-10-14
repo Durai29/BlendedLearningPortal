@@ -8,7 +8,7 @@ public class JFrame_2 {
         initialize();
     }
 
-    public void initialize(){
+    private void initialize(){
         frame = new JFrame();
         this.frame.setTitle("JFrame_1");
         this.frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
